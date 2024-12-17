@@ -11,12 +11,12 @@ import android.widget.TextView;
 public class CustomAdapter extends BaseAdapter
 {
     private Context context;
-    private int images[];
-    private String stringList1[];
-    private String stringList2[];
+    private int images [];
+    private String stringList1 [];
+    private String stringList2 [];
     private LayoutInflater inflater;
 
-    public CustomAdapter (Context context, int[] images, String[] stringList1, String[] stringList2 )
+    public CustomAdapter (Context context, int [] images, String [] stringList1, String[] stringList2)
     {
         this.context = context;
         this.images = images;
@@ -32,7 +32,8 @@ public class CustomAdapter extends BaseAdapter
     }
 
     @Override
-    public Object getItem(int position) {
+    public Object getItem(int position)
+    {
         return stringList1[position];
     }
 

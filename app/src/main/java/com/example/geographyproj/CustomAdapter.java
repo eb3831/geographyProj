@@ -46,9 +46,10 @@ public class CustomAdapter extends BaseAdapter
     public View getView(int i, View view, ViewGroup parent)
     {
         view = inflater.inflate(R.layout.custom_layout, parent, false);
-        ImageView img = (ImageView) view.findViewById(R.id.ivflag);
-        TextView str1 = (TextView) view.findViewById(R.id.tvCapital);
-        TextView str2 = (TextView) view.findViewById(R.id.tvCountry);
+
+        ImageView img = view.findViewById(R.id.ivflag);
+        TextView str1 = view.findViewById(R.id.tvCountry);
+        TextView str2 = view.findViewById(R.id.tvCapital);
 
         str1.setText(stringList1[i]);
         str2.setText(stringList2[i]);

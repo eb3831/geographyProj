@@ -53,7 +53,6 @@
             android:layout_weight="1" />
 
         <TextView
-            android:id="@+id/textView2"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="2.5"
@@ -63,46 +62,7 @@
             android:textSize="16sp" />
 
         <TextView
-            android:id="@+id/textView3"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="2.5"
-            android:gravity="center|left" />
-
-        <Space
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="3" />
-    </LinearLayout>
-
-    <Space
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="2" />
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="10"
-        android:orientation="horizontal">
-
-        <Space
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1" />
-
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="2.5"
-            android:fontFamily="sans-serif-black"
-            android:gravity="center"
-            android:text="Capital:"
-            android:textSize="16sp" />
-
-        <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/countryTV"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="2.5"
@@ -132,7 +92,45 @@
             android:layout_weight="1" />
 
         <TextView
-            android:id="@+id/textView2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2.5"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:text="Capital:"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/capitalTV"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2.5"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center|left" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3" />
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:orientation="horizontal">
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <TextView
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="2.5"
@@ -142,7 +140,7 @@
             android:textSize="16sp" />
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/populationTV"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="2.5"
